@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 100px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
